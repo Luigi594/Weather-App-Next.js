@@ -36,7 +36,12 @@ function CityPicker() {
 
   const handleSelectedCity = (option: ICitiesOptions) => {
     setSelectedCity(option);
-    // router.push(`/location/${option.value.latitude}/${option.value.longitude}`)
+
+    // folder here should be called location inside of app folder
+    // square brackets is for dynamic routing
+    router.push(
+      `/location/${option.value.name}/${option.value.latitude}/${option.value.longitude}`
+    );
   };
 
   const { countries } = useGetCountries();
