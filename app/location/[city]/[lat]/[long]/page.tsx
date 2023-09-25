@@ -8,6 +8,9 @@ import StatCards from "@/components/StatCard";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 import { IRoot } from "@/typing";
 
+// revalidate every 60 seconds
+export const revalidate = 60;
+
 type Props = {
   params: {
     city: string;
