@@ -3,7 +3,7 @@ import { Card, Divider, Subtitle, Text } from "@tremor/react";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#394F68] to-[#183B7E] p-10 flex flex-col justify-center items-center">
+    <main className="min-h-screen bg-gradient-to-br from-[#1c4693] to-[#286ad5] p-10 flex flex-col justify-center items-center">
       <Card className="rounded-md max-w-4xl mx-auto">
         <Text className="text-6xl text-center font-bold mb-10">
           Weather API
@@ -15,7 +15,7 @@ export default function Home() {
 
         <Divider className="my-10" />
 
-        <Card className="rounded-md bg-gradient-to-br from-[#394F68] to-[#183B7E]">
+        <Card className="rounded-md bg-gradient-to-br from-[#1c4693] to-[#286ad5]">
           <CityPicker />
         </Card>
       </Card>
