@@ -51,13 +51,10 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
             </p>
           </div>
 
-          <div className="m-2 mb-10">
-            {/** Callout Card */}
-            <CalloutCard
-              message="This is where GPT 3.5 Summary will go!"
-              warning
-            />
-          </div>
+          {/* <div className="m-2 mb-10">
+            Callout Card
+            <CalloutCard message={"No se pudo mi loco"} warning />
+          </div>  */}
 
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 m-2">
             {/** Stat Cards */}
