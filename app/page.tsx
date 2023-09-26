@@ -9,8 +9,7 @@ export default function Home() {
           Weather API
         </Text>
         <Subtitle className="text-xl text-center">
-          Powered by OpenAI's GPT 3.5, Next.js 13.5.2, Tailwind CSS, Tremor 2.0
-          and more!
+          Powered by Next.js 13.5.2, Tailwind CSS, Tremor 2.0 and more!
         </Subtitle>
 
         <Divider className="my-10" />
